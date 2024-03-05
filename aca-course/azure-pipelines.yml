@@ -14,7 +14,7 @@ resources:
 variables:
   IMAGE_NAME: pawan071202/album-backend-api
   CONTAINERAPPS_APP: album-backend-api
-  CONTAINERAPPS_ENVIRONMENT: aca-environment
+  CONTAINERAPPS_ENVIRONMENT: managedEnvironment-rgcontainerapps-9e84
   RESOURCE_GROUP: rg-containerapps-azure-pipelines
   TAG: '$(Build.BuildId)'
 
